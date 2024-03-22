@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background: linear-gradient(to right, rgb(3, 3, 121), rgb(255, 255, 255)); */
+}
+
+.div{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    /* background-color */
+    width: 100%;
+
+}
+
+.form{
+    background-color: white;
+    max-width: 400px;
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+    border: solid 4px rgb(3, 3, 121);
+    border-radius: 0px;
+    text-align: center;
+    margin: 0 auto 100px;
+    margin-top: 120px;
+}
+button{
+    background-color:rgb(3, 3, 121) ;
+    border: none;
+    width: 150px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 10px;
+}
+button:hover{
+    background-color: rgb(49, 49, 167);
+}
+#ceknumber  {
+    /* background-color: ; */
+    height: 45px;
+    border: solid 1px rgb(3, 3, 121);
+    width: 100%;
+    text-align: center;
+    font-size: 23px;
+    border-radius: 12px;
+    color: rgb(3, 3, 121);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#hasil{
+    height: 65px;
+    width: 100%;
+    color:  rgb(3, 3, 121);
+    text-align: center;
+    border-radius: 0px;
+    background-color: white;
+    border: solid 1px rgb(3, 3, 121);
+    font-size: 23px;
+}
+#textinput{
+    font-size: 20px;
+    color: rgb(3, 3, 121);
+}

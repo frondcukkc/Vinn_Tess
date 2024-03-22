@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web input umur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div">
+        <h1>tes</h1>
+    </div>
+    <div class="form">
+        <label>
+            <input type="number" id="ceknumber" onclick="checkInput()" name="masukkan tahun kelahiran"  placeholder="Tahun Kelahiran">
+        </label>
+        <br>
+        <br>
+        <button id="umur" onclick="checkHasil()">Click</button>
+        <button id="refresh" onclick="location.href='index.html'">Refresh</button>
+        <br>
+        <br>
+        <input type="button" name="hasil" placeholder="hasil" id="hasil"/>
+        <br>
+        <br>
+        <p id="textinput">Hati-hati Awas Penipuan!!</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
